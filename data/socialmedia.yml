@@ -1,0 +1,13 @@
+# only 2, 3, or 4 allowed
+-
+    name: Email
+    link: mailto:nathan@nathanv.me
+    icon: /themes/nathanv.me/static/assets/icons/email.svg
+-
+    name: GitHub
+    link: https://github.com/NathanVaughn
+    icon: /themes/nathanv.me/static/assets/icons/github-circle.svg
+-
+    name: LinkedIn
+    link: https://www.linkedin.com/in/navaughn/
+    icon: /themes/nathanv.me/static/assets/icons/linkedin.svg

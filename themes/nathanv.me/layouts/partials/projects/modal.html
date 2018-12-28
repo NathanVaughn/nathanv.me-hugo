@@ -1,0 +1,40 @@
+<div id="{{ anchorize .name }}-modal" class="modal modal-fixed-footer">
+    <div class="modal-content">
+        <h4>{{ .name }}</h4>
+        <div class="row">
+            {{ $imagelen := (len .images) }}
+            {{ if (gt $imagelen 1) }}
+            <div class="col s12 carousel carousel-slider">
+            {{ range .images }}
+                <a class="carousel-item" target="_blank" href="{{ . }}">{{/*<img class="lazyload" data-src="{{ . }}">*/}}
+                {{ partial "macros/lazyimage.html" (dict "link" . "classes" "" "title" "") }}
+                </a>
+            {{ end }}
+            </div>
+            {{ else if (.video)}}
+            <div class="col s12 l6">
+                <div class="video-container">
+                    <iframe class="lazyload" width="560" height="315" data-src="{{ .video }}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            </div>
+            {{ else}}
+            {{ $image := index (.images) 0 }}
+            {{ partial "macros/lazyimage.html" (dict "link" $image "classes" "col s12 l6 responsive-img" "title" .name) }}
+            {{ end }}
+            {{ if (gt $imagelen 1) }}
+            <div class="col s12">
+            {{ else }}
+            <div class="col s12 l6">
+            {{ end }}
+                <p>{{ .description | markdownify }}</p>
+                <p><b>Date: {{ .date }}</b></p>
+                {{ if (.source_code) }}
+                <p><b>Source Code: <a target="_blank" rel="noreferrer" href="{{.source_code }}">{{.source_code }}</a></b></p>
+                {{ end }}
+            </div>
+        </div>
+    </div>
+    <div class="modal-footer">
+        <a href="#!" class="modal-close waves-effect waves btn-flat">Close</a>
+    </div>
+</div>

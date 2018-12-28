@@ -1,0 +1,27 @@
+# logos should be 100px wide
+-
+    company: Iowa State University
+    website: ""
+    logo: assets/images/logos/iowastate.png
+    position: ""
+    dates: 2016 - Present
+    content: |
+        - 3.09 GPA
+        - B.S. in Aerospace Engineering
+        - Expected Graduation: December 2020
+-
+    company: Austin Community College
+    website: ""
+    logo: assets/images/logos/austincommunitycollege.png
+    position: ""
+    dates: 2014 - 2016
+    content: 21 Credit hours in English, History, Government, and Sociology
+-
+    company: Dripping Springs High School
+    website: ""
+    logo: assets/images/logos/drippingspringshighschool.png
+    position: ""
+    dates: 2012 - 2016
+    content: |
+        - 4.0 GPA.
+        - I was involved in band and robotics.

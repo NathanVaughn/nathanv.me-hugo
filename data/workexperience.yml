@@ -1,0 +1,38 @@
+# logos should be 100px wide
+-
+    company:  Michaels Energy
+    website: https://michaelsenergy.com/
+    logo: assets/images/logos/michaelsenergy.png
+    position: Residential Direct Load Control Intern
+    dates: May 2018 - July 2018
+    content: |
+        - Inspected power supply control units at customer sites across Southeast Iowa
+        - Provided remote support and traveled independently to customer sites representing power company
+        - Developed new software independently to generate GPS coordinates from a list of customer addresses to reduce time spent driving
+-
+    company: L2 Aviation
+    website: http://l2aviation.com
+    logo: assets/images/logos/l2aviation.png
+    position: Engineering Intern
+    dates: May 2017 - July 2017
+    content: |
+        - Converted existing 767 Large Display System flight deck retrofit into a brand-new STC for 757 aircraft
+        - Redrafted old drawings to improve conciseness, maintainability, and readability
+        - Engineered new parts and installations and drafted technical drawings
+-
+    company: L2 Aviation
+    website: http://l2aviation.com
+    logo: assets/images/logos/l2aviation.png
+    position: Programming Intern
+    dates: Feb 2016 - July 2016
+    content: |
+        - Developed custom applications for engineering automation using Inventor API
+        - Automated BOM creation process to reduce engineering time by 192 times
+        - Setup and configured new Autodesk Vault Pro server
+-
+    company: Dog Camp
+    website: http://dogcamp.net
+    logo: assets/images/logos/dogcamp.png
+    position: Kennel Tech
+    dates: June 2015 - July 2016
+    content: I was responsible for all cleaning tasks along with feeding and caring for the dogs.
