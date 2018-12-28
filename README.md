@@ -8,7 +8,7 @@ Minifies all SVG files that the theme uses. Only need to run when new SVG files 
 
 ### critical
 
-Visits `http://localhost:1313` to generate the critical CSS. `hugo serve` needs to have been started in another terminal before this is run.
+Visits `http://localhost:1313` to generate the critical CSS. `hugo serve` is automatically stopped and started.
 
 ### build:js
 

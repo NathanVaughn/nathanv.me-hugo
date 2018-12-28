@@ -41,4 +41,6 @@ critical.generate({
 
     // Complete Timeout for Operation
     timeout: 30000,
+
+    ignore: ['iframe.lazyload'],
 });

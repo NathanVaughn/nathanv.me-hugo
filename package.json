@@ -16,16 +16,19 @@
     "postcss-preset-env": "^6.5.0",
     "shelljs": "^0.8.3",
     "shx": "^0.3.2",
+    "start-server-and-test": "^1.7.11",
     "svgo": "^1.1.1",
     "uglify-js": "^3.4.9"
   },
   "scripts": {
     "svgmin": "svgo -f themes/nathanv.me/static/assets/icons/ --disable=removeViewBox",
-    "critical": "node critical.js",
+    "server": "hugo server -p 1313",
+    "critical-gen": "node critical.js",
+    "critical": "start-server-and-test server http://localhost:1313 critical-gen",
     "build:js": "uglifyjs themes/nathanv.me/static/assets/js/main.js --compress --mangle -o themes/nathanv.me/static/assets/js/main.min.js",
     "build:css": "postcss themes/nathanv.me/static/assets/css/style.css -o themes/nathanv.me/static/assets/css/style.min.css",
     "beautify": "js-beautify public/index.html --no-preserve-newlines -o public/index.html",
-    "minify": "html-minifier --collapse-whitespace --remove-comments --remove-optional-tags --remove-redundant-attributes --remove-script-type-attributes --remove-tag-whitespace --use-short-doctype --minify-css true --minify-js true public/index.html -o public/index.html",
+    "minify": "html-minifier --collapse-whitespace --remove-comments --remove-optional-tags --remove-redundant-attributes --remove-script-type-attributes --remove-tag-whitespace --minify-css true --minify-js true public/index.html -o public/index.html",
     "build": "cd public && git submodule update && cd .. && shx rm -rf public/* && npm run build:js && npm run build:css && hugo && npm run minify && shx rm -rf public/assets/icons && echo nathanv.me > public/CNAME",
     "deploy": "node deploy.js"
   }
