@@ -53,15 +53,14 @@ iframe.lazyloading{
     background: white url(../../assets/images/loader.gif) no-repeat center;
 }
 
-
 .lazyloaded {
 	opacity: 1;
 	transition: opacity 300ms;
 }
 
-/* don't display noscript images*/
-.no-js img.lazyload {
-    display: none;
+/* don't display noscript images/iframes */
+.no-js .lazyload {
+    display: none !important;
 }
 
 /* change carousel color indicators */
