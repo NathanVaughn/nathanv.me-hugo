@@ -39,7 +39,7 @@ if (shell.exec('git commit -m "' + message + '"').code !== 0) {
 }
 
 // git push
-if (shell.exec('git push origin master').code !== 0) {
+if (shell.exec('git push -f origin master').code !== 0) {
     shell.echo('Error: Git push failed');
     shell.exit(1);
 }
