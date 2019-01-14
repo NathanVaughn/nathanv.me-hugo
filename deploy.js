@@ -8,7 +8,7 @@ if (!shell.which('git')) {
 
 Date.prototype.timeNow = function () {
     return ((this.getHours() < 10) ? "0" : "") + this.getHours() + ":" + ((this.getMinutes() < 10) ? "0" : "") + this.getMinutes() + ":" + ((this.getSeconds() < 10) ? "0" : "") + this.getSeconds();
-}
+};
 
 if (process.argv.length > 2) {
     var message = process.argv[2];
@@ -25,6 +25,12 @@ if (process.argv.length > 2) {
 
 // build site
 shell.cd('public');
+
+// make sure correct branch is checked out
+if (shell.exec('git checkout master').code !== 0) {
+    shell.echo('Error: Git checkout failed');
+    shell.exit(1);
+}
 
 // add new git changes
 if (shell.exec('git add .').code !== 0) {
