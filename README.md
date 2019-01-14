@@ -1,5 +1,14 @@
 # nathanv.me-hugo
 
+## Cloning
+
+```
+git clone https://github.com/NathanVaughn/nathanv.me-hugo.git
+npm install
+git submodule init
+git submodule update
+```
+
 ## npm scripts
 
 ### svgmin
@@ -22,6 +31,10 @@ Polyfills and minifies CSS
 
 Minifies output HTML file
 
+### beautify
+
+Beautifies output HTML file
+
 ### build
 
 This script:
@@ -29,7 +42,7 @@ This script:
 2. Removes all contents of the `public` folder
 3. Runs `build:js` and `build:css`
 4. Runs `hugo` to generate the site
-5. Runs `minify` to minify the output HTML
+5. Runs `beautify` to beautify the output HTML
 6. Removes the ` public/assets/icons` folder as all SVG icons are inlined
 7. Creates a file called `CNAME` with the contents being `nathanv.me` for GitHub.
 
