@@ -9,16 +9,16 @@
   "license": "MIT",
   "dependencies": {
     "critical": "^1.3.4",
-    "cssnano": "^4.1.8",
+    "cssnano": "^4.1.10",
     "html-minifier": "^3.5.21",
-    "js-beautify": "^1.8.9",
-    "postcss-cli": "^6.1.0",
-    "postcss-preset-env": "^6.5.0",
+    "js-beautify": "^1.10.0",
+    "postcss-cli": "^6.1.2",
+    "postcss-preset-env": "^6.6.0",
     "shelljs": "^0.8.3",
     "shx": "^0.3.2",
-    "start-server-and-test": "^1.7.11",
-    "svgo": "^1.1.1",
-    "uglify-js": "^3.4.9"
+    "start-server-and-test": "^1.9.1",
+    "svgo": "^1.2.2",
+    "uglify-js": "^3.6.0"
   },
   "scripts": {
     "svgmin": "svgo -f themes/nathanv.me/static/assets/icons/ --disable=removeViewBox",
