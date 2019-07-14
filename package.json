@@ -29,7 +29,7 @@
     "build:css": "postcss themes/nathanv.me/static/assets/css/style.css -o themes/nathanv.me/static/assets/css/style.min.css",
     "beautify": "js-beautify public/index.html --no-preserve-newlines -o public/index.html",
     "minify": "html-minifier --collapse-whitespace --remove-comments --remove-optional-tags --remove-redundant-attributes --remove-script-type-attributes --remove-tag-whitespace --minify-css true --minify-js true public/index.html -o public/index.html",
-    "build": "cd public && git submodule update && git reset --hard master && cd .. && shx rm -rf public/* && npm run build:js && npm run build:css && hugo && npm run beautify && shx rm -rf public/assets/icons && echo nathanv.me > public/CNAME",
+    "build": "cd public && git submodule update && git reset --hard master && cd .. && shx rm -rf public/* && npm run build:js && npm run build:css && hugo && npm run beautify && shx rm -rf public/assets/icons && shx rm -rf resources/",
     "deploy": "node deploy.js"
   }
 }

@@ -87,7 +87,7 @@
   date: October 2017
   categories:
     - Programming
-  description: PrISUm Part Number Manager is a custom application I've developed to help the solar car team assign and manage their large library of part numbers for vehicle components. An iteration was built with MySQL, Python, and PyQt. Currently, a web app version is planned.
+  description: PrISUm Part Number Manager was a custom application I've developed to help the solar car team assign and manage their large library of part numbers for vehicle components. It was built with MySQL, Python, and PyQt.
   card_image: assets/images/projects/prisum-part-number-manager/card.jpg
   source_code: ""
   images:

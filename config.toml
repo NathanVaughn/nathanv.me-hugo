@@ -46,6 +46,11 @@ enableRobotsTXT = "true"
     title = "CONTACT"
     url = "#contact"
     weight = 70
+  [[menu.main]]
+    identifier = "blog"
+    title = "BLOG"
+    url = "https://blog.nathanv.me"
+    weight = 80
 
 [ blackfriday ]
   hrefTargetBlank = true
