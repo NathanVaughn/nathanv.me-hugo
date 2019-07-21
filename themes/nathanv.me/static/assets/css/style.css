@@ -11,6 +11,12 @@ nav ul a {
     font-size: 0.9rem;
 }
 
+@media (min-width: 992px) and (max-width: 1200px){
+    nav ul a {
+        font-size: 1vw;
+    }
+}
+
 /* make active navbar element stand out */
 nav .nav-wrapper li a.active{
     color:white !important;
