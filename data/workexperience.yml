@@ -6,7 +6,9 @@
     position: Systems/Software Engineering Co-op
     dates: May 2019 - Present
     content: |
-        -  Systems/Software Engineering Co-op as part of the Government Systems Fusion FMS team
+        - Collaborate on a diverse Agile scrum team as part of the software design process for Military Avionics Fusion Flight Management Systems
+        - Develop and maintain tests for Ada avionics software to ensure DO-178B certification conformity
+        - Work with requirements and traceability from high-level down to software
 -
     company: Michaels Energy
     website: https://michaelsenergy.com/
@@ -24,7 +26,7 @@
     position: Engineering Intern
     dates: May 2017 - July 2017
     content: |
-        - Converted existing 767 Large Display System flight deck retrofit into a brand-new STC for 757 aircraft
+        - Converted existing 767 Large Display System flight deck retrofit into a brand-new supplemental type certificate for 757 aircraft
         - Redrafted old drawings to improve conciseness, maintainability, and readability
         - Engineered new parts and installations and drafted technical drawings
 -
@@ -35,7 +37,7 @@
     dates: Feb 2016 - July 2016
     content: |
         - Developed custom applications for engineering automation using Inventor API
-        - Automated BOM creation process to reduce engineering time by 192 times
+        - Automated bill of material creation process to reduce engineering time by 192 times
         - Setup and configured new Autodesk Vault Pro server
 -
     company: Dog Camp
