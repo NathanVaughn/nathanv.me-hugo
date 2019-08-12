@@ -7,6 +7,13 @@ document.addEventListener('DOMContentLoaded', function () {
     elems = document.querySelectorAll('.sidenav');
     M.Sidenav.init(elems);
 
+    // scrollspy for navbar
+    elems = document.querySelectorAll('.scrollspy');
+    options = {
+        scrollOffset: 75
+    };
+    M.ScrollSpy.init(elems, options);
+
     // collpasible content
     elems = document.querySelectorAll('.collapsible.popout');
     M.Collapsible.init(elems);
@@ -15,20 +22,14 @@ document.addEventListener('DOMContentLoaded', function () {
     elems = document.querySelectorAll('.tabs');
     M.Tabs.init(elems);
 
+    // mix it up
+    mixitup('.mix-container');
+
     // project modals
     elems = document.querySelectorAll('.modal');
     M.Modal.init(elems);
 
-    // mix it up
-    mixitup('.mix-container');
-
-    // scrollspy for navbar
-    elems = document.querySelectorAll('.scrollspy');
-    options = {
-        scrollOffset: 75
-    };
-    M.ScrollSpy.init(elems, options);
-
+    // image lightboxes
     elems = document.querySelectorAll('.materialboxed');
     M.Materialbox.init(elems);
 

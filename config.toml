@@ -8,7 +8,6 @@ enableRobotsTXT = "true"
 
 [params]
   author = "Nathan Vaughn"
-  description = "Nathan Vaughn's Portfolio Website"
 
 [menu]
   [[menu.main]]
