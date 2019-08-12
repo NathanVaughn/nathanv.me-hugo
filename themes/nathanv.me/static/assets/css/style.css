@@ -69,15 +69,6 @@ iframe.lazyloading{
     display: none !important;
 }
 
-/* change carousel color indicators */
-.carousel .indicators .indicator-item {
-    background-color: #212121;
-}
-
-.carousel .indicators .indicator-item.active {
-    background-color: #bdbdbd;
-}
-
 /* flexbox items */
 .flex {
     display: flex;
@@ -211,6 +202,16 @@ iframe.lazyloading{
 #projects .modal.modal-fixed-footer{
     max-height: 80%;
     height: 80%;
+}
+
+#projects .media-wrapper img {
+    max-width: 100%;
+    padding-top: 2em;
+}
+
+#projects .modal-content img:not(.active){
+    max-height: 500px;
+    width: auto;
 }
 
 /* Contact */

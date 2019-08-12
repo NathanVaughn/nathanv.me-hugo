@@ -2,23 +2,13 @@
 window.lazySizesConfig = window.lazySizesConfig || {};
 lazySizesConfig.preloadAfterLoad = false;
 
-// initialize carousels after modal loads
-init_carosuels = function () {
-    elems = document.querySelectorAll('.carousel');
-    options = {
-        fullWidth: false,
-        indicators: true
-    };
-    M.Carousel.init(elems, options);
-};
-
 document.addEventListener('DOMContentLoaded', function () {
     // sidenav
     elems = document.querySelectorAll('.sidenav');
     M.Sidenav.init(elems);
 
     // collpasible content
-    elems = document.querySelectorAll('.collapsible');
+    elems = document.querySelectorAll('.collapsible.popout');
     M.Collapsible.init(elems);
 
     // tabs for the projects
@@ -27,10 +17,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
     // project modals
     elems = document.querySelectorAll('.modal');
-    options = {
-        onOpenEnd: init_carosuels
-    };
-    M.Modal.init(elems, options);
+    M.Modal.init(elems);
 
     // mix it up
     mixitup('.mix-container');
@@ -41,6 +28,9 @@ document.addEventListener('DOMContentLoaded', function () {
         scrollOffset: 75
     };
     M.ScrollSpy.init(elems, options);
+
+    elems = document.querySelectorAll('.materialboxed');
+    M.Materialbox.init(elems);
 
     // tooltips for social media
     elems = document.querySelectorAll('.tooltipped');

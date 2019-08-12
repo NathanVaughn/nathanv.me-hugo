@@ -21,10 +21,12 @@
     - assets/images/projects/study-room/new-6.jpg
     - assets/images/projects/study-room/new-7.jpg
   video: ""
+
 - name: Raspberry Pi Dashcam
   date: March 2016
   categories:
     - Programming
+    - Engineering
   description: |
     - Developed and built a car dashcam using a Raspberry Pi and camera
     - Designed custom camera interface logic in Python
@@ -33,6 +35,7 @@
   source_code: ""
   images: ""
   video: https://www.youtube-nocookie.com/embed/lx99F54EE8w
+
 - name: PipQt
   date: July 2016
   categories:
@@ -43,6 +46,7 @@
   images:
     - assets/images/projects/pipqt/view.jpg
   video: ""
+
 - name: Open Aircraft Manager
   date: September 2016
   categories:
@@ -53,15 +57,18 @@
   images:
     - assets/images/projects/open-aircraft-manager/view.jpg
   video: ""
+
 - name: LTA Project
   date: December 2016
   categories:
     - CAD
+    - Engineering
   description: Designed, built, programmed, and flew lighter-than-air vehicle through obstacle course as part of in-class competition.
   card_image: assets/images/projects/lta/card.jpg
   source_code: ""
   images: ""
   video: https://www.youtube-nocookie.com/embed/yqSw-OBYFME
+
 - name: Piper Cub Project
   date: April 2017
   categories:
@@ -83,6 +90,7 @@
     - assets/images/projects/piper-cub/11.jpg
     - assets/images/projects/piper-cub/12.jpg
   video: ""
+
 - name: PrISUm Part Number Manager
   date: October 2017
   categories:
@@ -92,4 +100,43 @@
   source_code: ""
   images:
     - assets/images/projects/prisum-part-number-manager/view.jpg
+  video: ""
+
+- name: PrISUm Website
+  date: July 2018
+  categories:
+    - Programming
+  description: I rebuilt the [prisum.org](https://www.prisum.org) website from scratch with new content management system software to improve speed, maintainability, and user experience.
+  card_image: assets/images/projects/prisum-website/card.jpg
+  source_code: ""
+  images:
+    - assets/images/projects/prisum-website/view.jpg
+  video: ""
+
+- name: High-Performance Computing Cluster
+  date: Spring 2019
+  categories:
+    - Programming
+    - Engineering
+  description: |
+    - Assisted in designing and constructing a compute cluster for PrISUm out of recycled hardware using industry-standard technologies
+    - Consists of seven compute nodes and is primarily used for computational fluid dynamics simulations and community grid computing
+  card_image: assets/images/projects/hpc-cluster/card.jpg
+  source_code: ""
+  images:
+    - assets/images/projects/hpc-cluster/view.jpg
+  video: ""
+
+- name: pyQstat
+  date: Spring 2019
+  categories:
+    - Programming
+  description: pyQstat is a small Python-based web app to display Sun Grid Engine (and forks) statistics. This was built for the High-Performance Computing cluster mentioned before.
+  card_image: assets/images/projects/pyqstat/card.jpg
+  source_code: "https://github.com/NathanVaughn/pyQstat"
+  images:
+    - assets/images/projects/pyqstat/hosts.jpg
+    - assets/images/projects/pyqstat/jobs.jpg
+    - assets/images/projects/pyqstat/queues.jpg
+    - assets/images/projects/pyqstat/single_job.jpg
   video: ""
