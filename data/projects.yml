@@ -29,8 +29,8 @@
     - Engineering
   description: |
     - Developed and built a car dashcam using a Raspberry Pi and camera
-    - Designed custom camera interface logic in Python
-    - Drafted custom circuit boards and had them fabricated
+    - Created custom camera interface logic in Python
+    - Designed custom circuit boards and had them fabricated
   card_image: assets/images/projects/raspberry-pi-dashcam/card.jpg
   source_code: ""
   images: ""
