@@ -1,0 +1,29 @@
+name: Build
+
+on: [push]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@master
+      with:
+        submodules: true
+    - name: Install Node
+      uses: actions/setup-node@v1
+    - name: Install dependencies
+      run: npm install
+    - name: Build Critical CSS
+      run: npm run critical
+    - name: Build Site
+      run: npm run build
+    - name: Deploy site
+      uses: peaceiris/actions-gh-pages@master
+      if: success()
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        PUBLISH_BRANCH: gh-pages
+        PUBLISH_DIR: ./public

@@ -1,12 +1,10 @@
-# nathanv.me-hugo
+# nathanv.me
 
 ## Cloning
 
 ```
-git clone https://github.com/NathanVaughn/nathanv.me-hugo.git
+git clone https://github.com/NathanVaughn/nathanv.me.git
 npm install
-git submodule init
-git submodule update
 ```
 
 ## npm scripts
@@ -45,14 +43,3 @@ This script:
 5. Runs `beautify` to beautify the output HTML
 6. Removes the ` public/assets/icons` folder as all SVG icons are inlined
 7. Creates a file called `CNAME` with the contents being `nathanv.me` for GitHub.
-
-### deploy
-
-This script can take an argument of a commit message such as:
-
-```
-npm run script deploy -- "Message goes here"
-```
-
-This script simply goes into the `public` directory and adds, commits, and pushes the contents.
-
