@@ -16,7 +16,9 @@ document.addEventListener('DOMContentLoaded', function () {
 
     // collpasible content
     elems = document.querySelectorAll('.collapsible.popout');
-    M.Collapsible.init(elems);
+    M.Collapsible.init(elems, {
+        accordion: false
+    });
 
     // tabs for the projects
     elems = document.querySelectorAll('.tabs');
