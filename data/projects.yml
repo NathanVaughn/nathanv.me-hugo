@@ -106,7 +106,7 @@
   date: July 2018
   categories:
     - Programming
-  description: I rebuilt the [prisum.org](https://www.prisum.org) website from scratch with new content management system software to improve speed, maintainability, and user experience.
+  description: I rebuilt the [prisum.org](https://www.prisum.org) website from scratch with new content management system software to improve speed, maintainability, and user experience. Implementing lazy image, font, and CSS loading, automatic image resizing and compressiom, critical CSS generation, and no-reload page transisitons reduced monthly bandwidth usage and page load times by 95%.
   card_image: assets/images/projects/prisum-website/card.jpg
   source_code: ""
   images:
