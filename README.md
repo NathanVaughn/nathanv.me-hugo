@@ -39,10 +39,7 @@ Beautifies output HTML file
 ### build
 
 This script:
-1. Goes into the `public` directory and updates the git submodule
-2. Removes all contents of the `public` folder
-3. Runs `build:js` and `build:css`
-4. Runs `hugo` to generate the site
-5. Runs `beautify` to beautify the output HTML
-6. Removes the ` public/assets/icons` folder as all SVG icons are inlined
-7. Creates a file called `CNAME` with the contents being `nathanv.me` for GitHub.
+1. Runs `build:js` and `build:css`
+2. Runs `hugo` to generate the site
+3. Runs `beautify` to beautify the output HTML
+4. Removes the ` public/assets/icons` folder as all SVG icons are inlined
