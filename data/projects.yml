@@ -34,7 +34,7 @@
   card_image: assets/images/projects/raspberry-pi-dashcam/card.jpg
   source_code: ""
   images: ""
-  video: https://www.youtube-nocookie.com/embed/lx99F54EE8w
+  video: https://www.youtube.com/embed/lx99F54EE8w
 
 - name: PipQt
   date: July 2016
@@ -67,7 +67,7 @@
   card_image: assets/images/projects/lta/card.jpg
   source_code: ""
   images: ""
-  video: https://www.youtube-nocookie.com/embed/yqSw-OBYFME
+  video: https://www.youtube.com/embed/yqSw-OBYFME
 
 - name: Piper Cub Project
   date: April 2017
