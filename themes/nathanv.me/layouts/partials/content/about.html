@@ -1,7 +1,7 @@
 <section id="about" class="scrollspy">
     <div class="section-content center-align z-depth-1">
         <div class="image-container">
-            {{ partial "macros/image.html" (dict "link" .Site.Data.about.picture "classes" "about-picture circle" "title" ".Site.Params.author") . }}
+            {{ partial "macros/image.html" (dict "link" .Site.Data.about.picture "classes" "about-picture circle" "title" .Site.Params.author) . }}
         </div>
         <div class="row">
             <h1 class="name">{{ .Site.Params.author }}</h1>
