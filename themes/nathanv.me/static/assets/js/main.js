@@ -3,6 +3,9 @@ window.lazySizesConfig = window.lazySizesConfig || {};
 lazySizesConfig.preloadAfterLoad = false;
 
 document.addEventListener('DOMContentLoaded', function () {
+    var elems;
+    var options;
+
     // sidenav
     elems = document.querySelectorAll('.sidenav');
     M.Sidenav.init(elems);
