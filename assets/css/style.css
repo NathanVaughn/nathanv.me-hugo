@@ -18,8 +18,10 @@ nav ul a {
 }
 
 /* make active navbar element stand out */
+/* !important is needed to take precedence over MaterializeCSS, as the level of
+specificity is the same */
 nav .nav-wrapper li a.active{
-    color:white !important;
+    color:white !important; /* csslint allow: important */
     transition: color 0.2s;
 }
 
@@ -65,8 +67,10 @@ iframe.lazyloading{
 }
 
 /* don't display noscript images/iframes */
+/* !important is needed to take precedence over other rules, as this needs to apply to
+every matching item on the page */
 .no-js .lazyload {
-    display: none !important;
+    display: none !important; /* csslint allow: important */
 }
 
 /* flexbox items */
@@ -75,8 +79,10 @@ iframe.lazyloading{
     flex-wrap: wrap;
 }
 
+/* !important is needed to take precedence over MaterializeCSS, as the level of
+specificity is the same */
 .flex .col {
-    margin-left: 0 !important;
+    margin-left: 0 !important; /* csslint allow: important */
 }
 
 /* About section */
