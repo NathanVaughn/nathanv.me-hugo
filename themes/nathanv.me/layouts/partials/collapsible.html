@@ -14,7 +14,11 @@
                     {{ if .website }}
                     <a href="{{ .website }}" rel="noreferrer" target="_blank">{{ .company }}</a>
                     {{ else }}
-                    <p>{{ .company }}</p>
+                        {{ if .position}}
+                        <span>{{ .company }}</span>
+                        {{ else }}
+                        <p>{{ .company }}</p>
+                        {{ end }}
                     {{ end }}
                 {{ if not .position}}
                 </b>
