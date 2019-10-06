@@ -1,4 +1,4 @@
-var critical = require('critical');
+var critical = require("critical");
 critical.generate({
     // Inline the generated critical-path CSS
     // - true generates HTML
@@ -6,10 +6,10 @@ critical.generate({
     inline: false,
 
     // Your base directory
-    base: 'themes/nathanv.me/static/assets/',
+    base: "themes/nathanv.me/static/assets/",
 
     // HTML source file
-    src: 'http://localhost:1313',
+    src: "http://localhost:1313",
 
     dimensions: [{
                 width: 375,
@@ -31,7 +31,7 @@ critical.generate({
 
     // Target for final HTML output.
     // use some CSS file when the inline option is not set
-    dest: 'css/critical.min.css',
+    dest: "css/critical.min.css",
 
     // Minify critical-path CSS when inlining
     minify: true,
@@ -42,5 +42,5 @@ critical.generate({
     // Complete Timeout for Operation
     timeout: 30000,
 
-    ignore: ['iframe.lazyload'],
+    ignore: ["iframe.lazyload"],
 });
