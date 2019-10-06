@@ -1,12 +1,17 @@
+two_columns: true
 skills:
     - Autodesk Vault
-    - Python
+    - Autodesk Inventor
     - SolidWorks
+    - 3D Printing
     - Engineering
     - MATLAB
-    - Autodesk Inventor
-    - Git/SVN
+    - Python
+    - SQL
+    - HTML/CSS
+    - Git/Subversion
     - High-Performance Computing
+    - Linux
 certifications: |
     - Ham Radio Technician Class License
         - [Callsign KN4JJJ](http://wireless2.fcc.gov/UlsApp/UlsSearch/license.jsp?licKey=3997912&lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3BC%2BsTOAnlQbOSqbIpuvSNhw%3D%3D)
