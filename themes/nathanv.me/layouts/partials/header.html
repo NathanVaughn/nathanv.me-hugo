@@ -19,9 +19,11 @@
 
 {{ partial "meta.html" . }}
 
+{{ if not (.Site.IsServer) }}
 <style>
     {{ readFile "/themes/nathanv.me/static/assets/css/critical.min.css" | safeCSS }}
 </style>
+{{ end }}
 
 <link rel="preload" href="assets/images/loader.gif" as="image">
 
