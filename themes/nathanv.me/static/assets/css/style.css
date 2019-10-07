@@ -245,3 +245,15 @@ specificity is the same */
     height: auto;
     width: 3rem;
 }
+
+@media all and (-ms-high-contrast:none) {
+    /* Materialbox is broken on IE currently, so disable the
+    zoomin cursor and opactiy change on hover */
+    .materialboxed {
+        cursor: auto;
+    }
+
+    .materialboxed:hover:not(.active) {
+        opacity: 1;
+    }
+}

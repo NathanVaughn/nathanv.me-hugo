@@ -34,9 +34,15 @@ document.addEventListener("DOMContentLoaded", function () {
     elems = document.querySelectorAll(".modal");
     M.Modal.init(elems);
 
-    // image lightboxes
-    elems = document.querySelectorAll(".materialboxed");
-    M.Materialbox.init(elems);
+    // Internet Explorer 6-11
+    var isIE = /*@cc_on!@*/ false || !!document.documentMode;
+    
+    if (!isIE) {
+        // currently broken on edge and ie, so don't load
+        // image lightboxes
+        elems = document.querySelectorAll(".materialboxed");
+        M.Materialbox.init(elems);
+    }
 
     // tooltips for social media
     elems = document.querySelectorAll(".tooltipped");
