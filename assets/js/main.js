@@ -38,7 +38,7 @@ document.addEventListener("DOMContentLoaded", function () {
     var isIE = navigator.userAgent.indexOf("MSIE ") > -1 || navigator.userAgent.indexOf("Trident/") > -1;
 
     if (!isIE) {
-        // currently broken on edge and ie, so don't load
+        // currently broken on ie, so don't load
         // image lightboxes
         elems = document.querySelectorAll(".materialboxed");
         M.Materialbox.init(elems);
