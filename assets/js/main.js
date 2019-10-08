@@ -35,8 +35,8 @@ document.addEventListener("DOMContentLoaded", function () {
     M.Modal.init(elems);
 
     // Internet Explorer 6-11
-    var isIE = /*@cc_on!@*/ false || !!document.documentMode;
-    
+    var isIE = navigator.userAgent.indexOf("MSIE ") > -1 || navigator.userAgent.indexOf("Trident/") > -1;
+
     if (!isIE) {
         // currently broken on edge and ie, so don't load
         // image lightboxes
