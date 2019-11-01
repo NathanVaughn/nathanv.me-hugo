@@ -17,8 +17,16 @@ nav ul a {
     }
 }
 
+/* break words intelligently */
+.break-word {
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    word-break: break-word;
+    hyphens: auto;
+}
+
 /* make active navbar element stand out */
-/* !important is needed to take precedence over MaterializeCSS, as the level of
+/* important is needed to take precedence over MaterializeCSS, as the level of
 specificity is the same */
 nav .nav-wrapper li a.active{
     color:white !important; /* csslint allow: important */
@@ -67,7 +75,7 @@ iframe.lazyloading{
 }
 
 /* don't display noscript images/iframes */
-/* !important is needed to take precedence over other rules, as this needs to apply to
+/* important is needed to take precedence over other rules, as this needs to apply to
 every matching item on the page */
 .no-js .lazyload {
     display: none !important; /* csslint allow: important */
@@ -79,7 +87,7 @@ every matching item on the page */
     flex-wrap: wrap;
 }
 
-/* !important is needed to take precedence over MaterializeCSS, as the level of
+/* important is needed to take precedence over MaterializeCSS, as the level of
 specificity is the same */
 .flex .col {
     margin-left: 0 !important; /* csslint allow: important */
@@ -193,11 +201,6 @@ specificity is the same */
 }
 
 /* Projects */
-
-/* allow modal content to break words */
-#projects .modal-content {
-    word-break: break-word;
-}
 
 /* add disc to lists */
 #projects .modal-content ul>li{
