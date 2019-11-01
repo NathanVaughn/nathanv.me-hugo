@@ -1,7 +1,7 @@
 /* General CSS */
 
 html {
-    font-family: "Arial";
+    font-family: Arial, sans-serif;
     background-color: #e3e3e3;
 }
 
@@ -11,7 +11,7 @@ nav ul a {
     font-size: 0.9rem;
 }
 
-@media (min-width: 992px) and (max-width: 1200px){
+@media (min-width: 992px) and (max-width: 1200px) {
     nav ul a {
         font-size: 1vw;
     }
@@ -25,11 +25,19 @@ nav ul a {
     hyphens: auto;
 }
 
+/* social icons */
+/* fill the icon and set width */
+.social-icon svg {
+    fill: #C62828;
+    height: auto;
+    width: 3rem;
+}
+
 /* make active navbar element stand out */
 /* important is needed to take precedence over MaterializeCSS, as the level of
 specificity is the same */
-nav .nav-wrapper li a.active{
-    color:white !important; /* csslint allow: important */
+nav .nav-wrapper li a.active {
+    color: white !important; /* csslint allow: important */
     transition: color 0.2s;
 }
 
@@ -38,7 +46,7 @@ nav .nav-wrapper li a.active{
     fill: white;
     height: auto;
     width: 36px;
-    margin-top:12px;
+    margin-top: 12px;
 }
 
 /* set section background color and padding */
@@ -53,7 +61,7 @@ section .section-content {
     font-size: 24pt;
 }
 
-.section-title h2 svg{
+.section-title h2 svg {
     fill: rgba(0, 0, 0, 0.7);
 }
 
@@ -61,17 +69,17 @@ section .section-content {
 
 .lazyload,
 .lazyloading {
-	opacity: 0.5;
+    opacity: 0.5;
 }
 
 iframe.lazyload,
-iframe.lazyloading{
+iframe.lazyloading {
     background: white url(../../assets/images/loader.gif) no-repeat center;
 }
 
 .lazyloaded {
-	opacity: 1;
-	transition: opacity 300ms;
+    opacity: 1;
+    transition: opacity 300ms;
 }
 
 /* don't display noscript images/iframes */
@@ -100,7 +108,7 @@ specificity is the same */
 }
 
 /* poisition profile picture */
-@media screen and (min-width: 600px){
+@media screen and (min-width: 600px) {
     #about .about-picture {
         margin-top: -125px;
         height: 200px;
@@ -109,7 +117,7 @@ specificity is the same */
 }
 
 /* make picture smaller on small screens */
-@media screen and (max-width: 600px){
+@media screen and (max-width: 600px) {
     #about .about-picture {
         margin-top: -100px;
         height: 150px;
@@ -152,7 +160,7 @@ specificity is the same */
         width: 50px;
         min-width: 50px;
     }
-  }
+}
 
 .position-logo {
     display: block;
@@ -171,7 +179,7 @@ specificity is the same */
 }
 
 /* add markers to lists */
-.collapsible-body ul li{
+.collapsible-body ul li {
     list-style-type: disc;
 }
 
@@ -181,7 +189,7 @@ specificity is the same */
     font-size: 20pt;
 }
 
-#skills h3 svg{
+#skills h3 svg {
     fill: white;
 }
 
@@ -203,12 +211,12 @@ specificity is the same */
 /* Projects */
 
 /* add disc to lists */
-#projects .modal-content ul>li{
+#projects .modal-content ul>li {
     list-style-type: disc;
 }
 
 /* make modals a bit taller */
-#projects .modal.modal-fixed-footer{
+#projects .modal.modal-fixed-footer {
     max-height: 80%;
     height: 80%;
 }
@@ -218,7 +226,7 @@ specificity is the same */
     padding-top: 2em;
 }
 
-#projects .modal-content img:not(.active){
+#projects .modal-content img:not(.active) {
     max-height: 500px;
     width: auto;
 }
@@ -226,7 +234,7 @@ specificity is the same */
 /* Contact */
 
 /* fixes issue with ifram preventing scrolling if mouse is hovered over */
-#contact iframe{
+#contact iframe {
     -webkit-overflow-scrolling: touch;
 }
 
@@ -238,18 +246,12 @@ specificity is the same */
 }
 
 /* remove margin on bottom */
-#socialmedia .row{
+#socialmedia .row {
     margin-bottom: 0;
 }
 
-/* fill the icon and set width */
-.social-icon svg {
-    fill: #C62828;
-    height: auto;
-    width: 3rem;
-}
-
 @media all and (-ms-high-contrast:none) {
+
     /* Materialbox is broken on IE currently, so disable the
     zoomin cursor and opactiy change on hover */
     .materialboxed {
@@ -261,7 +263,7 @@ specificity is the same */
     }
 
     /* Fixes sizing of the social media card panel */
-    #socialmedia .row .col{
+    #socialmedia .row .col {
         height: 7em;
         margin-top: -2em;
     }
