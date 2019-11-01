@@ -8,20 +8,14 @@
             <div class="position-title">{{ .position }}</div>
             {{ end }}
             <div class="position-company">
-                {{ if not .position}}
-                <b>
-                {{ end }}
-                    {{ if .website }}
-                    <a href="{{ .website }}" rel="noreferrer" target="_blank">{{ .company }}</a>
+                {{ if .website }}
+                <a href="{{ .website }}" rel="noreferrer" target="_blank">{{ .company }}</a>
+                {{ else }}
+                    {{ if .position}}
+                    <span>{{ .company }}</span>
                     {{ else }}
-                        {{ if .position}}
-                        <span>{{ .company }}</span>
-                        {{ else }}
-                        <p>{{ .company }}</p>
-                        {{ end }}
+                    <p><b>{{ .company }}</b></p>
                     {{ end }}
-                {{ if not .position}}
-                </b>
                 {{ end }}
             </div>
         </div>

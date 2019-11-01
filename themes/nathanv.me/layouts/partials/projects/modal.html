@@ -26,10 +26,12 @@
             {{ end }}
 
             <div class="col s12">
-                <p>{{ .description | markdownify }}</p>
+                <br>
+                {{ .description | markdownify }}
                 <p><b>Date:</b> {{ .date }}
                 {{ if (.source_code) }}
-                <br><b>Source Code:</b> <a target="_blank" rel="noreferrer" href="{{.source_code }}">{{.source_code }}</a>
+                <br>
+                <b>Source Code:</b> <a class="break-word" target="_blank" rel="noreferrer" href="{{.source_code }}">{{.source_code }}</a>
                 {{ end }}
                 </p>
             </div>
