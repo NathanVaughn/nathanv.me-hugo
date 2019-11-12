@@ -200,7 +200,7 @@ specificity is the same */
 
 /* change link color */
 #skills ul a {
-    color: rgb(180, 180, 180);
+    color: #ef9a9a;
 }
 
 #skills ul>li {
