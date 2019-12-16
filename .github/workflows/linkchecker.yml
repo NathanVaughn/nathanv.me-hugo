@@ -17,7 +17,7 @@ jobs:
     - name: Link Checker
       uses: peter-evans/link-checker@master
       with:
-        args: -v -r *
+        args: -v -r * -x ^.+linkedin.com.+$
     - name: Create Issue From File
       uses: peter-evans/create-issue-from-file@master
       env:
