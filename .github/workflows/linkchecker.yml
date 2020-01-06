@@ -20,8 +20,8 @@ jobs:
         args: -v -r * -x ^.+linkedin.com.+$
     - name: Create Issue From File
       uses: peter-evans/create-issue-from-file@master
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        ISSUE_TITLE: Link Checker Report
-        ISSUE_CONTENT_FILEPATH: ./link-checker/out.md
-        ISSUE_LABELS: report, automated issue
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}
+        title: Link Checker Report
+        content-filepath: ./link-checker/out.md
+        labels: report, automated issue
