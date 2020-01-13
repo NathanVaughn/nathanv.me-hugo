@@ -98,6 +98,12 @@
         color: #ef9a9a
     }
 
+    @media (prefers-color-scheme:dark) {
+        html {
+            background-color: #212121 !important
+        }
+    }
+
     .red {
         background-color: #f44336 !important
     }
@@ -723,7 +729,6 @@
     }
 
     section .section-content {
-        background-color: #fff;
         padding: 20px
     }
 
@@ -856,6 +861,20 @@
     #contact iframe {
         -webkit-overflow-scrolling: touch
     }
+
+    @media (prefers-color-scheme:dark) {
+        html {
+            background-color: #212121 !important
+        }
+
+        .section-title h2 {
+            color: #fff
+        }
+
+        .section-title h2 svg {
+            fill: rgba(255, 255, 255, .7)
+        }
+    }
 </style>
 <link rel="preload" href="assets/images/loader.gif" as="image">
 <link rel="preload" href="https://cdn.jsdelivr.net/npm/materialize-css@1/dist/css/materialize.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
@@ -943,7 +962,7 @@
     <main>
         <div class="container">
             <section id="about" class="scrollspy">
-                <div class="section-content center-align z-depth-1">
+                <div class="section-content center-align white z-depth-1">
                     <div class="image-container">
                         <img class="about-picture circle" src="assets/images/profile.jpg" alt="Nathan Vaughn" />
                     </div>

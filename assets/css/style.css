@@ -49,9 +49,8 @@ nav .nav-wrapper li a.active {
     margin-top: 12px;
 }
 
-/* set section background color and padding */
+/* set section padding */
 section .section-content {
-    background-color: white;
     padding: 20px;
 }
 
@@ -277,4 +276,19 @@ specificity is the same */
         margin-top: -2em;
     }
 
+}
+
+/* Browser dark theme */
+@media (prefers-color-scheme: dark) {
+    html {
+        background-color: #212121 !important;
+    }
+
+    .section-title h2 {
+        color: white;
+    }
+
+    .section-title h2 svg {
+        fill: rgba(255, 255, 255, 0.7);
+    }
 }
