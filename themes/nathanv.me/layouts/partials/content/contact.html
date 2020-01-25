@@ -3,10 +3,42 @@
         <h2>
             {{ readFile "/themes/nathanv.me/static/assets/icons/send.svg" | safeHTML }} Contact</h2>
     </div>
-    <div class="video-container" style="height: {{ .Site.Data.contact.form_height }};">
-        <noscript>
-            <iframe src="{{ .Site.Data.contact.form_link }}" frameborder="0" marginheight="0" marginwidth="0" scrolling="no" title="Contact Form">Loading...</iframe>
-        </noscript>
-        <iframe class="lazyload lazypreload" data-src="{{ .Site.Data.contact.form_link }}" frameborder="0" marginheight="0" marginwidth="0" scrolling="no" title="Contact Form">Loading...</iframe>
+    <div class="section-content card-panel z-depth-1">
+        <div class="row">
+            <form class="col s12 pageclip-form" action="https://send.pageclip.co/GlIVifomZ99DaDVzR10RXlp44Yo6Dh4v/contact" method="post">
+                <input type="hidden" id="subject" name="subject" value="Contact Form Submission">
+                <div class="row">
+                    <div class="input-field col s12">
+                        <i class="prefix">{{ readFile "/themes/nathanv.me/static/assets/icons/account_circle.svg" | safeHTML }}</i>
+                        <input id="name" name="name" type="text" class="validate" required>
+                        <label for="name">Name</label>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="input-field col s12 m6">
+                        <i class="prefix">{{ readFile "/themes/nathanv.me/static/assets/icons/email.svg" | safeHTML }}</i>
+                        <input id="email" name="email" type="email" class="validate" required>
+                        <label for="email">Email</label>
+                    </div>
+                    <div class="input-field col s12 m6">
+                        <i class="prefix">{{ readFile "/themes/nathanv.me/static/assets/icons/phone.svg" | safeHTML }}</i>
+                        <input id="phone" name="phone" type="tel" minlength="9" maxlength="14" class="validate">
+                        <label for="phone">Phone Number</label>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="input-field col s12">
+                        <i class="prefix">{{ readFile "/themes/nathanv.me/static/assets/icons/message.svg" | safeHTML }}</i>
+                        <textarea id="message" name="message" class="materialize-textarea validate" required></textarea>
+                        <label for="message">Message</label>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="input-field col">
+                        <button class="s12 btn waves-effect waves-light red darken-3" type="submit" name="action">Submit</button>
+                    </div>
+                </div>
+            </form>
+        </div>
     </div>
 </section>

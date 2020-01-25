@@ -232,9 +232,16 @@ specificity is the same */
 
 /* Contact */
 
-/* fixes issue with ifram preventing scrolling if mouse is hovered over */
-#contact iframe {
-    -webkit-overflow-scrolling: touch;
+#contact .section-content {
+    padding-bottom: 0;
+}
+
+.pageclip-form__success {
+    display: none;
+}
+
+.pageclip-form__success__message {
+    display: none;
 }
 
 /* Social media */
