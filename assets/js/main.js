@@ -50,4 +50,21 @@ document.addEventListener("DOMContentLoaded", function () {
         margin: 25
     };
     M.Tooltip.init(elems, options);
+
+    var form = document.querySelector(".pageclip-form");
+    Pageclip.form(form, {
+        onSubmit: function (event) {},
+        onResponse: function (error, response) {
+            if (error) {
+                M.toast({
+                    html: "Error submitting form"
+                });
+            } else {
+                M.toast({
+                    html: "Form submitted!"
+                });
+            }
+        },
+        successTemplate: null
+    });
 });
