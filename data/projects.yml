@@ -149,4 +149,14 @@
     - assets/images/projects/pyqstat/queues.jpg
     - assets/images/projects/pyqstat/single_job.jpg
   video: ""
-
+- name: My Blog
+  date: Fall 2019 - Present
+  categories:
+    - Programming
+    - Engineering
+  description: On my blog, I make posts about various projects or technical challenges I have been working on. All content is written in Markdown. There is no ad revenue from it and is just something that I enjoy writing.
+  card_image: assets/images/projects/my-blog/card.jpg
+  source_code: "https://github.com/NathanVaughn/blog.nathanv.me"
+  images:
+    - assets/images/projects/my-blog/code-1.jpg
+  video: ""
