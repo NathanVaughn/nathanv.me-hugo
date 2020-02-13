@@ -1,4 +1,8 @@
-{{ $id := print .position "-" .company}}
+{{ if .position }}
+    {{ $id := print .position "-" .company}}
+{{ else }}
+    {{ $id := .company}}
+{{ end }}
 <a class="anchor" id="{{ anchorize $id }}"></a>
 <li>
     <div class="collapsible-header">
