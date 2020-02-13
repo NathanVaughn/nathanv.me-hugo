@@ -1,8 +1,4 @@
-{{ if .position }}
-    {{ $id := print .position "-" .company}}
-{{ else }}
-    {{ $id := .company}}
-{{ end }}
+{{ $id := cond (ne .position "") (print .position "-" .company) (.company) }}
 <a class="anchor" id="{{ anchorize $id }}"></a>
 <li>
     <div class="collapsible-header">
@@ -17,7 +13,7 @@
                 {{ if .website }}
                 <a href="{{ .website }}" rel="noreferrer" target="_blank">{{ .company }}</a>
                 {{ else }}
-                    {{ if .position}}
+                    {{ if .position }}
                     <span>{{ .company }}</span>
                     {{ else }}
                     <p><b>{{ .company }}</b></p>
