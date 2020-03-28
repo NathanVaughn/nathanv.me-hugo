@@ -106,7 +106,7 @@
   date: July 2018
   categories:
     - Programming
-  description: I rebuilt the [prisum.org](https://www.prisum.org) website completely from scratch with new [content management](https://bolt.cm/) software. Previously, the site was entirely hand-coded, which made updates extremely difficult and time-consuming. Rebuilding the site with new web-browser based content management software and templating massively increased maintainability, along with allowing non-developers to easily and quickly make content updates. In the process of rebuilding the site, I implemented lazy image, font, and CSS loading, automatic image resizing and compression, critical CSS generation, and no-reload page transitions which reduced monthly bandwidth usage and page load times by 95%, improving SEO.
+  description: I rebuilt the [prisum.org](https://www.prisum.org) website completely from scratch with new [content management](https://bolt.cm/) software. Previously, the site was entirely hand-coded, which made updates extremely difficult and time-consuming. Rebuilding the site with new browser-based content management software and templating massively increased maintainability, along with allowing non-developers to easily and quickly make content updates. In the process of rebuilding the site, I implemented lazy image, font, and CSS loading, automatic image resizing and compression, critical CSS generation, and no-reload page transitions which reduced monthly bandwidth usage and page load times by 95%, improving SEO.
   card_image: assets/images/projects/prisum-website/card.jpg
   source_code: ""
   images:
