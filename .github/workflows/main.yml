@@ -9,19 +9,19 @@ jobs:
   build:
 
     runs-on: ubuntu-latest
-    
+
     steps:
     - name: Checkout Code
       uses: actions/checkout@v2
     - name: Install Node
       uses: actions/setup-node@v1
-    - name: Install dependencies
     - name: Cache Node Modules
       uses: actions/cache@v1
       id: cache-npm
       with:
         path: node_modules
         key: npm-${{ hashFiles('**/package.json') }}
+    - name: Install dependencies
       run: npm install
     - name: Build Critical CSS
       run: npm run critical
