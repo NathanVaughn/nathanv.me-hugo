@@ -1,5 +1,14 @@
 # logos should be 100px wide
 -
+    company: Iowa State University
+    website: https://www.iastate.edu/
+    logo: assets/images/logos/iowastate.png
+    position: Part-Time Solidworks Modeling
+    dates: Jan 2020 - Mar 2020
+    content: |
+        - Modelled a prototype light guide apparatus for a research experiment in the Physics department
+        - See [Projects](#physics-light-guide) for more details
+-
     company: Collins Aerospace
     website: https://www.collinsaerospace.com/
     logo: assets/images/logos/collinsaerospace.png

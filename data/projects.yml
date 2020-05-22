@@ -1,6 +1,7 @@
 # card image needs to be 400x300
 # video needs to be youtube/other embded link
 # images need to be a list, even if there is only one
+# blank entries should have empty quotations
 - name: High School Library Study Room Renovation
   date: January 2016
   categories:
@@ -149,6 +150,7 @@
     - assets/images/projects/pyqstat/queues.jpg
     - assets/images/projects/pyqstat/single_job.jpg
   video: ""
+
 - name: My Blog
   date: Fall 2019 - Present
   categories:
@@ -159,4 +161,18 @@
   source_code: "https://github.com/NathanVaughn/blog.nathanv.me"
   images:
     - assets/images/projects/my-blog/code-1.jpg
+  video: ""
+
+- name: Physics Light Guide
+  date: Spring 2020
+  categories:
+    - CAD
+    - Engineering
+  description: I modelled an apparatus to channel light into a series of detectors for an experiment a professor was working on in the Physics department. At the base is a 10cm x 10cm calorimeter of 47 x 47 fiber optic fibers. The light coming out of these fibers needed to be funneled together into a 5 x 5 array of detectors. Multiple different variations of parts were designed with differing wall thicknesses and heights to accomplish this. One concept was intended to be injection molded as a single part, with an interior mirror finish. Another concept was to laser cut pieces of mirrored stainless steel and glue them together into separate "towers". I made all of the parts in Solidworks with a lot of lofts and different configurations (as 47 doesn't split into 5 nicely, the groupings of fiber optic fibers had to be differing sizes).
+  card_image: assets/images/projects/light-guide/card.jpg
+  source_code: ""
+  images:
+    - assets/images/projects/light-guide/top.jpg
+    - assets/images/projects/light-guide/all-in-one.jpg
+    - assets/images/projects/light-guide/individual.jpg
   video: ""

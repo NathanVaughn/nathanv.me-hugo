@@ -1,5 +1,5 @@
 {{ $id := cond (ne .position "") (print .position "-" .company) (.company) }}
-<a class="anchor" id="{{ anchorize $id }}"></a>
+<a id="{{ anchorize $id }}" class="anchor scrollspy"></a>
 <li>
     <div class="collapsible-header">
         <div class="position-logo-wrapper valign-wrapper">
