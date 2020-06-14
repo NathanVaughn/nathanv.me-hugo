@@ -7,15 +7,11 @@
   "main": "config.toml",
   "author": "Nathan Vaughn",
   "license": "MIT",
-  "hugo-bin": {
-    "buildTags": "extended"
-  },
   "dependencies": {
     "autoprefixer": "^9.7.1",
     "critical": "^1.3.7",
     "cssnano": "^4.1.10",
     "html-minifier": "^4.0.0",
-    "hugo-bin": "^0.60.0",
     "js-beautify": "^1.10.2",
     "postcss-cli": "^7.0.0",
     "postcss-preset-env": "^6.7.0",

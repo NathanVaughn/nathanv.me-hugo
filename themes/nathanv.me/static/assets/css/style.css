@@ -234,20 +234,6 @@ specificity is the same */
     width: auto;
 }
 
-/* Contact */
-
-#contact .section-content {
-    padding-bottom: 0;
-}
-
-.pageclip-form__success {
-    display: none;
-}
-
-.pageclip-form__success__message {
-    display: none;
-}
-
 /* Social media */
 
 /* stylistic padding */
