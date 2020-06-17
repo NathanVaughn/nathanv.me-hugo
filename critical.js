@@ -31,16 +31,13 @@ critical.generate({
 
     // Target for final HTML output.
     // use some CSS file when the inline option is not set
-    dest: "css/critical.min.css",
+    target: "css/critical.min.css",
 
     // Minify critical-path CSS when inlining
     minify: true,
 
     // Extract inlined styles from referenced stylesheets
     extract: false,
-
-    // Complete Timeout for Operation
-    timeout: 30000,
 
     ignore: ["iframe.lazyload"],
 });
