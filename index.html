@@ -30,12 +30,27 @@
 <meta property="og:image" content="https://nathanv.me/assets/images/profile.jpg" />
 <meta property="og:site_name" content="Nathan Vaughn">
 <style>
-    .btn-large,
     .sidenav,
     .z-depth-1,
     nav {
         -webkit-box-shadow: 0 2px 2px 0 rgba(0, 0, 0, .14), 0 3px 1px -2px rgba(0, 0, 0, .12), 0 1px 5px 0 rgba(0, 0, 0, .2);
         box-shadow: 0 2px 2px 0 rgba(0, 0, 0, .14), 0 3px 1px -2px rgba(0, 0, 0, .12), 0 1px 5px 0 rgba(0, 0, 0, .2)
+    }
+
+    .btn-flat {
+        border: none;
+        border-radius: 2px;
+        display: inline-block;
+        height: 36px;
+        line-height: 36px;
+        padding: 0 16px;
+        text-transform: uppercase;
+        vertical-align: middle
+    }
+
+    .btn-flat {
+        font-size: 14px;
+        outline: 0
     }
 
     .white-text {
@@ -471,17 +486,6 @@
         margin: 1.52rem 0 .912rem
     }
 
-    .card .card-image img {
-        display: block;
-        border-radius: 2px 2px 0 0;
-        position: relative;
-        left: 0;
-        right: 0;
-        top: 0;
-        bottom: 0;
-        width: 100%
-    }
-
     .btn-flat,
     .btn-large {
         border: none;
@@ -528,11 +532,6 @@
         overflow: hidden;
         vertical-align: middle;
         z-index: 1
-    }
-
-    .waves-effect img {
-        position: relative;
-        z-index: -1
     }
 
     .modal {
