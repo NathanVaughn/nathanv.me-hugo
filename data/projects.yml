@@ -37,27 +37,27 @@
   images: ""
   video: https://www.youtube.com/embed/lx99F54EE8w
 
-- name: PipQt
-  date: July 2016
-  categories:
-    - Programming
-  description: PipQt is a basic PyQt-based GUI client for Python's `pip`.
-  card_image: assets/images/projects/pipqt/card.jpg
-  source_code: https://github.com/NathanVaughn/PipQt
-  images:
-    - assets/images/projects/pipqt/view.jpg
-  video: ""
+# - name: PipQt
+#   date: July 2016
+#   categories:
+#     - Programming
+#   description: PipQt is a basic PyQt-based GUI client for Python's `pip`.
+#   card_image: assets/images/projects/pipqt/card.jpg
+#   source_code: https://github.com/NathanVaughn/PipQt
+#   images:
+#     - assets/images/projects/pipqt/view.jpg
+#   video: ""
 
-- name: Open Aircraft Manager
-  date: September 2016
-  categories:
-    - Programming
-  description: OpenAircraftManager is a program designed to let you bulk edit aircraft.cfg files for Microsoft Flight Simulator X or Prepar3D (a FSX fork). This is meant to help save time instead of manually going through multiple `[fltsim.x]` entries to change a single field. It is built with Python 3 and PyQt.
-  card_image: assets/images/projects/open-aircraft-manager/card.jpg
-  source_code: https://github.com/NathanVaughn/OpenAircraftManager
-  images:
-    - assets/images/projects/open-aircraft-manager/view.jpg
-  video: ""
+# - name: Open Aircraft Manager
+#   date: September 2016
+#   categories:
+#     - Programming
+#   description: OpenAircraftManager is a program designed to let you bulk edit aircraft.cfg files for Microsoft Flight Simulator X or Prepar3D (a FSX fork). This is meant to help save time instead of manually going through multiple `[fltsim.x]` entries to change a single field. It is built with Python 3 and PyQt.
+#   card_image: assets/images/projects/open-aircraft-manager/card.jpg
+#   source_code: https://github.com/NathanVaughn/OpenAircraftManager
+#   images:
+#     - assets/images/projects/open-aircraft-manager/view.jpg
+#   video: ""
 
 - name: LTA Project
   date: December 2016
@@ -113,6 +113,7 @@
   images:
     - assets/images/projects/prisum-website/view.jpg
   video: ""
+  url: https://prisum.org
 
 - name: My Website
   date: Fall 2018 - Present
@@ -124,6 +125,7 @@
   images:
     - assets/images/projects/my-website/code-1.jpg
   video: ""
+  url: https://nathanv.me
 
 - name: High-Performance Computing Cluster
   date: Spring 2019
@@ -162,6 +164,7 @@
   images:
     - assets/images/projects/my-blog/code-1.jpg
   video: ""
+  url: https://blog.nathanv.me
 
 - name: Physics Light Guide
   date: Spring 2020
@@ -176,3 +179,19 @@
     - assets/images/projects/light-guide/all-in-one.jpg
     - assets/images/projects/light-guide/individual.jpg
   video: ""
+
+- name: Linkspring
+  date: Summer 2020 - Present
+  categories:
+    - Programming
+  description: I developed a severless web app for users to create a page to consolidate all of the links they want to share with other people (Facebook, Twitter, Instagram, GitHub, etc) in one place. I have solely done all of the work on it including design, back-end work, front-end work, and development automation. It is primarily built with the Python [Flask framework](https://flask.palletsprojects.com/en/1.1.x/) and runs on [AWS Lambda](https://aws.amazon.com/lambda/) with [DynamoDB](https://aws.amazon.com/dynamodb/) as a database. The vast majority of the codebase is covered by unit and integration tests which are automatically run on every pull request. Every component, including a duplicate development copy, is hosted within AWS. Billing is handled by [Stripe](https://stripe.com/).
+  card_image: assets/images/projects/linkspring/card.jpg
+  source_code: ""
+  images:
+    - assets/images/projects/linkspring/logo-full.png
+    - assets/images/projects/linkspring/profile-page.jpg
+    - assets/images/projects/linkspring/account-profile.jpg
+    - assets/images/projects/linkspring/account-links.jpg
+    - assets/images/projects/linkspring/architecture.jpg
+  video: ""
+  url: https://lksg.me

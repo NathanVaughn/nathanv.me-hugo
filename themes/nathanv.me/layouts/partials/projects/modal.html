@@ -33,6 +33,10 @@
                 <br>
                 <b>Source Code:</b> <a class="break-word" target="_blank" rel="noreferrer" href="{{.source_code }}">{{.source_code }}</a>
                 {{ end }}
+                {{ if (.url) }}
+                <br>
+                <b>Link:</b> <a class="break-word" target="_blank" rel="noreferrer" href="{{.url }}">{{.url }}</a>
+                {{ end }}
                 </p>
             </div>
         </div>
