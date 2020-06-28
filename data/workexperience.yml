@@ -1,5 +1,12 @@
 # logos should be 100px wide
 -
+    company: TRU Simulation + Training
+    website: https://www.trusimulation.com/
+    logo: assets/images/logos/trusim.png
+    position: Software Engineering Intern
+    dates: Jun 2020 - Present
+    content: ""
+-
     company: Iowa State University
     website: https://www.iastate.edu/
     logo: assets/images/logos/iowastate.png

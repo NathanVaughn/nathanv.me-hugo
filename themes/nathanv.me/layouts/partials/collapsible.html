@@ -23,7 +23,9 @@
         </div>
         <div class="position-dates right-align">{{ .dates }}</div>
     </div>
+    {{ if .content }}
     <div class="collapsible-body white">
         {{ .content | markdownify }}
     </div>
+    {{ end }}
 </li>
