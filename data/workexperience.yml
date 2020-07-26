@@ -5,7 +5,8 @@
     logo: assets/images/logos/trusim.png
     position: Software Engineering Intern
     dates: Jun 2020 - Present
-    content: ""
+    content: |
+        - Performed systems tests of a new Citation Latitude simulator before and during customer acceptance to ensure simulator correctly replicated the behavior of the real aircraft
 -
     company: Iowa State University
     website: https://www.iastate.edu/
