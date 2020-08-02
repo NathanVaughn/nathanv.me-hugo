@@ -2,10 +2,14 @@
 -
     company: TRU Simulation + Training
     website: https://www.trusimulation.com/
+    address: 1827 Northpointe Parkway, Suite 100, Lutz, Florida 33558
+    phone: "813-792-9300"
     logo: assets/images/logos/trusim.png
     position: Software Engineering Intern
     dates: Jun 2020 - Present
-    content: ""
+    content: |
+        - Performed systems tests of a new Citation Latitude simulator before and during customer acceptance to ensure simulator correctly replicated the behavior of the real aircraft
+        - Researched alternative software to generate large certification documents and developed a proof-of-concept in LaTeX for greater engineering efficiency
 -
     company: Iowa State University
     website: https://www.iastate.edu/
@@ -18,6 +22,8 @@
 -
     company: Collins Aerospace
     website: https://www.collinsaerospace.com/
+    address: 400 Collins Road NE, Cedar Rapids, Iowa 52498
+    phone: "319-295-1000"
     logo: assets/images/logos/collinsaerospace.png
     position: Systems/Software Engineering Co-op
     dates: May 2019 - Jan 2020
@@ -30,6 +36,8 @@
 -
     company: Michaels Energy
     website: https://michaelsenergy.com/
+    address: 201 1st Avenue SE, Suite 200, Cedar Rapids, Iowa 52401
+    phone: "319-531-6177"
     logo: assets/images/logos/michaelsenergy.png
     position: Residential Direct Load Control Intern
     dates: May 2018 - July 2018
@@ -40,6 +48,8 @@
 -
     company: L2 Aviation
     website: https://www.l2aviation.com/
+    address: 2100 East Highway 290, Dripping Springs, Texas 78620
+    phone: "512-894-3414"
     logo: assets/images/logos/l2aviation.png
     position: Engineering Intern
     dates: May 2017 - July 2017
@@ -50,6 +60,8 @@
 -
     company: L2 Aviation
     website: https://www.l2aviation.com/
+    address: 2100 East Highway 290, Dripping Springs, Texas 78620
+    phone: "512-894-3414"
     logo: assets/images/logos/l2aviation.png
     position: Programming Intern
     dates: Feb 2016 - July 2016
