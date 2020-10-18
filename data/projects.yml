@@ -3,6 +3,17 @@
 # images need to be a list, even if there is only one
 # blank entries should have empty quotations
 
+- name: MSFS Mod Manager
+  date: Fall 2020
+  categories:
+    - Programming
+  description: MSFS Mod Manager is an external mod manager for the new Microsoft Flight Simulator. It lets users quickly install and manager their third-party addons for the simulator. It has over [20 stars](https://github.com/NathanVaughn/msfs-mod-manager/stargazers) on GitHub and is built with Python 3 and PySide (Qt).
+  card_image: assets/images/projects/msfs-mod-manager/card.jpg
+  source_code: https://github.com/NathanVaughn/msfs-mod-manager
+  images:
+    - assets/images/projects/msfs-mod-manager/view.jpg
+  video: ""
+
 - name: Linkspring
   date: Summer 2020 - Present
   categories:
@@ -40,11 +51,21 @@
     - Engineering
   description: On my blog, I make posts about various projects or technical challenges I have been working on. All content is written in Markdown. There is no ad revenue from it and is just something that I enjoy writing.
   card_image: assets/images/projects/my-blog/card.jpg
-  source_code: "https://github.com/NathanVaughn/blog.nathanv.me"
+  source_code: https://github.com/NathanVaughn/blog.nathanv.me
   images:
     - assets/images/projects/my-blog/code-1.jpg
   video: ""
   url: https://blog.nathanv.me
+
+- name: Webtrees Docker Image
+  date: Summer 2019
+  categories:
+    - Programming
+  description: I have created and maintain a Docker image for popular web-based genealogy software [Webtrees](https://webtrees.net/). Every day, an automated task checks for new versions of the upstream Webtrees software, and automatically generates and builds the subsequent Dockerfiles. Multi-architecture builds are also enabled via [Docker Buildx](https://docs.docker.com/buildx/working-with-buildx) and QEMU. At the time of writing, the image has nearly 200,000 pulls on Docker Hub.
+  card_image: assets/images/projects/webtrees-docker/card.jpg
+  source_code: https://github.com/NathanVaughn/webtrees-docker
+  video: ""
+  url: https://hub.docker.com/r/nathanvaughn/webtrees
 
 - name: pyQstat
   date: Spring 2019
@@ -52,7 +73,7 @@
     - Programming
   description: pyQstat is a small Python-based web app to display Sun Grid Engine (and forks) statistics. This was built for the High-Performance Computing cluster mentioned before.
   card_image: assets/images/projects/pyqstat/card.jpg
-  source_code: "https://github.com/NathanVaughn/pyQstat"
+  source_code: https://github.com/NathanVaughn/pyQstat
   images:
     - assets/images/projects/pyqstat/hosts.jpg
     - assets/images/projects/pyqstat/jobs.jpg
@@ -78,7 +99,7 @@
     - Programming
   description: Using what I learned while building [prisum.org](https://www.prisum.org), I rebuilt this website around the [Hugo](https://gohugo.io) static site generator. The content and theme are tightly coupled around structured data files ([example](https://github.com/NathanVaughn/nathanv.me/blob/master/data/workexperience.yml)). The theme is built with [MaterializeCSS](https://materializecss.com/) for the main CSS framework, [lazySizes](https://afarkas.github.io/lazysizes/index.html) for lazy image loading, and [MixItUp](https://www.kunkalabs.com/mixitup/) for categorizing projects. Multiple npm [scripts](https://github.com/NathanVaughn/nathanv.me/blob/master/package.json) along with [GitHub Actions](https://github.com/NathanVaughn/nathanv.me/blob/master/.github/workflows/main.yml) are used to automatically generate all CSS and JS assets, build the site, and publish it on every commit automatically.
   card_image: assets/images/projects/my-website/card.jpg
-  source_code: "https://github.com/NathanVaughn/nathanv.me"
+  source_code: https://github.com/NathanVaughn/nathanv.me
   images:
     - assets/images/projects/my-website/code-1.jpg
   video: ""
@@ -96,16 +117,16 @@
   video: ""
   url: https://prisum.org
 
-- name: PrISUm Part Number Manager
-  date: October 2017
-  categories:
-    - Programming
-  description: PrISUm Part Number Manager was a custom application I developed to help the solar car team assign and manage their large library of part numbers for vehicle components. It was built with MySQL, Python, and PyQt.
-  card_image: assets/images/projects/prisum-part-number-manager/card.jpg
-  source_code: ""
-  images:
-    - assets/images/projects/prisum-part-number-manager/view.jpg
-  video: ""
+# - name: PrISUm Part Number Manager
+#   date: October 2017
+#   categories:
+#     - Programming
+#   description: PrISUm Part Number Manager was a custom application I developed to help the solar car team assign and manage their large library of part numbers for vehicle components. It was built with MySQL, Python, and PyQt.
+#   card_image: assets/images/projects/prisum-part-number-manager/card.jpg
+#   source_code: ""
+#   images:
+#     - assets/images/projects/prisum-part-number-manager/view.jpg
+#   video: ""
 
 - name: Piper Cub Project
   date: April 2017
@@ -129,16 +150,16 @@
     - assets/images/projects/piper-cub/12.jpg
   video: ""
 
-- name: LTA Project
-  date: December 2016
-  categories:
-    - CAD
-    - Engineering
-  description: I designed, built, programmed, and flew lighter-than-air vehicle as part of a team through an obstacle course as part of a class competition.
-  card_image: assets/images/projects/lta/card.jpg
-  source_code: ""
-  images: ""
-  video: https://www.youtube.com/embed/yqSw-OBYFME
+# - name: LTA Project
+#   date: December 2016
+#   categories:
+#     - CAD
+#     - Engineering
+#   description: I designed, built, programmed, and flew lighter-than-air vehicle as part of a team through an obstacle course as part of a class competition.
+#   card_image: assets/images/projects/lta/card.jpg
+#   source_code: ""
+#   images: ""
+#   video: https://www.youtube.com/embed/yqSw-OBYFME
 
 # - name: Open Aircraft Manager
 #   date: September 2016
@@ -162,19 +183,19 @@
 #     - assets/images/projects/pipqt/view.jpg
 #   video: ""
 
-- name: Raspberry Pi Dashcam
-  date: March 2016
-  categories:
-    - Programming
-    - Engineering
-  description: |
-    - Developed and built a car dashcam using a Raspberry Pi and camera
-    - Created custom camera interface logic in Python
-    - Designed custom circuit boards and had them fabricated
-  card_image: assets/images/projects/raspberry-pi-dashcam/card.jpg
-  source_code: ""
-  images: ""
-  video: https://www.youtube.com/embed/lx99F54EE8w
+# - name: Raspberry Pi Dashcam
+#   date: March 2016
+#   categories:
+#     - Programming
+#     - Engineering
+#   description: |
+#     - Developed and built a car dashcam using a Raspberry Pi and camera
+#     - Created custom camera interface logic in Python
+#     - Designed custom circuit boards and had them fabricated
+#   card_image: assets/images/projects/raspberry-pi-dashcam/card.jpg
+#   source_code: ""
+#   images: ""
+#   video: https://www.youtube.com/embed/lx99F54EE8w
 
 - name: High School Library Study Room Renovation
   date: January 2016
