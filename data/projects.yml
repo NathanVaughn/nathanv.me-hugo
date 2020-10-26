@@ -7,7 +7,7 @@
   date: Fall 2020
   categories:
     - Programming
-  description: MSFS Mod Manager is an external mod manager for the new Microsoft Flight Simulator. It lets users quickly install and manager their third-party addons for the simulator. It has over [20 stars](https://github.com/NathanVaughn/msfs-mod-manager/stargazers) on GitHub and is built with Python 3 and PySide (Qt).
+  description: MSFS Mod Manager is an external mod manager for the new Microsoft Flight Simulator. It lets users quickly install and manager their third-party addons for the simulator. It has over [30 stars](https://github.com/NathanVaughn/msfs-mod-manager/stargazers) on GitHub and is built with Python 3 and PySide (Qt).
   card_image: assets/images/projects/msfs-mod-manager/card.jpg
   source_code: https://github.com/NathanVaughn/msfs-mod-manager
   images:
@@ -61,7 +61,7 @@
   date: Summer 2019
   categories:
     - Programming
-  description: I have created and maintain a Docker image for popular web-based genealogy software [Webtrees](https://webtrees.net/). Every day, an automated task checks for new versions of the upstream Webtrees software, and automatically generates and builds the subsequent Dockerfiles. Multi-architecture builds are also enabled via [Docker Buildx](https://docs.docker.com/buildx/working-with-buildx) and QEMU. At the time of writing, the image has nearly 200,000 pulls on Docker Hub.
+  description: I have created and maintain a Docker image for popular web-based genealogy software [Webtrees](https://webtrees.net/). Every day, an automated task checks for new versions of the upstream Webtrees software, and automatically generates and builds the subsequent Dockerfiles. Multi-architecture builds are also enabled via [Docker Buildx](https://docs.docker.com/buildx/working-with-buildx) and QEMU. The image has over 200,000 pulls on Docker Hub.
   card_image: assets/images/projects/webtrees-docker/card.jpg
   source_code: https://github.com/NathanVaughn/webtrees-docker
   video: ""
