@@ -1,7 +1,7 @@
 # only 2, 3, or 4 allowed
 -
     name: Email
-    link: mailto:nathan@nathanv.me
+    link: mailto:nvaughn51@gmail.com
     icon: /themes/nathanv.me/static/assets/icons/email.svg
 -
     name: GitHub
