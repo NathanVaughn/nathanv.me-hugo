@@ -13,6 +13,7 @@
     "cssnano": "^4.1.10",
     "html-minifier": "^4.0.0",
     "js-beautify": "^1.10.2",
+    "postcss": "^8.2.1",
     "postcss-cli": "^8.0.0",
     "postcss-preset-env": "^6.7.0",
     "shelljs": "^0.8.3",
