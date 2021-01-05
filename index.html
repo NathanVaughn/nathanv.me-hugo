@@ -37,6 +37,17 @@
         box-shadow: 0 2px 2px 0 rgba(0, 0, 0, .14), 0 3px 1px -2px rgba(0, 0, 0, .12), 0 1px 5px 0 rgba(0, 0, 0, .2)
     }
 
+    @media only screen and (max-width:600px) {
+        .hide-on-small-only {
+            display: none !important
+        }
+    }
+
+    .col .row {
+        margin-left: -.75rem;
+        margin-right: -.75rem
+    }
+
     .btn-flat {
         border: none;
         border-radius: 2px;
@@ -53,10 +64,6 @@
         outline: 0
     }
 
-    .white-text {
-        color: #fff !important
-    }
-
     .btn-large,
     .card-panel,
     .collapsible,
@@ -67,44 +74,11 @@
         box-shadow: 0 2px 2px 0 rgba(0, 0, 0, .14), 0 3px 1px -2px rgba(0, 0, 0, .12), 0 1px 5px 0 rgba(0, 0, 0, .2)
     }
 
-    @media only screen and (max-width:600px) {
-        .hide-on-small-only {
-            display: none !important
-        }
-    }
-
-    .col .row {
-        margin-left: -.75rem;
-        margin-right: -.75rem
-    }
-
-    h1,
-    h2,
-    h3,
-    h4 {
-        font-weight: 400;
-        line-height: 1.3
-    }
-
-    h3 {
-        font-size: 2.92rem;
-        line-height: 110%;
-        margin: 1.9466666667rem 0 1.168rem
-    }
-
     .card-panel {
         padding: 24px;
         margin: .5rem 0 1rem;
         border-radius: 2px;
         background-color: #fff
-    }
-
-    #skills h3 {
-        font-size: 20pt
-    }
-
-    #skills h3 svg {
-        fill: #fff
     }
 
     @media (prefers-color-scheme:dark) {
@@ -897,7 +871,7 @@
     }("undefined" != typeof global ? global : this);
 </script>
 <link rel="canonical" href="https://nathanv.me/">
-<meta name="generator" content="Hugo 0.79.1" />
+<meta name="generator" content="Hugo 0.80.0" />
 
 <body>
     <div class="navbar-fixed">
@@ -940,7 +914,7 @@
                     </div>
                     <div class="row">
                         <h1 class="name">Nathan Vaughn</h1>
-                        <h2 class="tagline">Incoming Software Engineer at Bell Flight</h2>
+                        <h2 class="tagline">Software Engineer at Bell Flight</h2>
                         <div class="container">
                             <h4 class="introduction">Hi, I&#39;m Nathan Vaughn. I am an aerospace engineer with a minor in non-destructive evaluation from Iowa State University.</h4>
                         </div>
@@ -962,6 +936,24 @@
                     </h2>
                 </div>
                 <ul class="collapsible popout">
+                    <a id="software-engineer-bell-flight" class="anchor scrollspy"></a>
+                    <li>
+                        <div class="collapsible-header">
+                            <div class="position-logo-wrapper valign-wrapper">
+                                <noscript>
+                                    <img class="lazypreload position-logo" src="assets/images/logos/bell.png" alt="Bell Flight" />
+                                </noscript>
+                                <img class="lazyload lazypreload position-logo" src="assets/images/loader.gif" data-src="assets/images/logos/bell.png" alt="Bell Flight" />
+                            </div>
+                            <div class="position-info-wrapper">
+                                <div class="position-title">Software Engineer</div>
+                                <div class="position-company">
+                                    <a href="https://www.bellflight.com/" rel="noreferrer" target="_blank">Bell Flight</a>
+                                </div>
+                            </div>
+                            <div class="position-dates right-align">Jan 2020 - Present</div>
+                        </div>
+                    </li>
                     <a id="software-engineering-intern-tru-simulation--training" class="anchor scrollspy"></a>
                     <li>
                         <div class="collapsible-header">
