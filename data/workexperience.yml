@@ -1,13 +1,13 @@
 # logos should be 100px wide and no taller than 35px
-# -
-#     company: Bell Flight
-#     website: https://www.bellflight.com/
-#     address:
-#     phone:
-#     logo: assets/images/logos/bell.png
-#     position: Software Engineer
-#     dates: Jan 2020 - Present
-#     content:
+-
+    company: Bell Flight
+    website: https://www.bellflight.com/
+    address: 3255 Bell Flight Boulevard, Fort Worth, Texas 76118
+    phone: "817-280-2011"
+    logo: assets/images/logos/bell.png
+    position: Software Engineer
+    dates: Jan 2020 - Present
+    content:
 -
     company: TRU Simulation + Training
     website: https://www.trusimulation.com/
