@@ -22,7 +22,7 @@ jobs:
       uses: actions/setup-node@v2.1.4
 
     - name: Cache Node Modules
-      uses: actions/cache@v2
+      uses: actions/cache@v2.1.4
       id: cache-npm
       with:
         path: node_modules
