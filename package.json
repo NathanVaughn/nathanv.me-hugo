@@ -9,7 +9,7 @@
   "license": "MIT",
   "dependencies": {
     "autoprefixer": "^10.1.0",
-    "critical": "^2.0.1",
+    "critical": "^3.0.0",
     "cssnano": "^4.1.10",
     "html-minifier": "^4.0.0",
     "js-beautify": "^1.10.2",
