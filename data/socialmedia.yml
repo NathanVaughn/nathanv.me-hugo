@@ -1,13 +1,13 @@
 # only 2, 3, or 4 allowed
 -
     name: Email
-    link: https://link.nathanv.app/email
+    link: https://nthv.me/email
     icon: /themes/nathanv.me/static/assets/icons/email.svg
 -
     name: GitHub
-    link: https://link.nathanv.app/github
+    link: https://nthv.me/github
     icon: /themes/nathanv.me/static/assets/icons/github-circle.svg
 -
     name: LinkedIn
-    link: https://link.nathanv.app/linkedin
+    link: https://nthv.me/linkedin
     icon: /themes/nathanv.me/static/assets/icons/linkedin.svg
