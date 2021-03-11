@@ -9,7 +9,7 @@
   "license": "MIT",
   "dependencies": {
     "autoprefixer": "^10.1.0",
-    "critical": "^2.0.1",
+    "critical": "^3.0.0",
     "cssnano": "^4.1.10",
     "html-minifier": "^4.0.0",
     "js-beautify": "^1.10.2",
@@ -39,7 +39,7 @@
   "devDependencies": {
     "htmlhint": "^0.14.0",
     "jshint": "^2.10.2",
-    "stylelint-config-recommended": "^3.0.0",
+    "stylelint-config-recommended": "^4.0.0",
     "stylelint": "^13.0.0"
   }
 }
