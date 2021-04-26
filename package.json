@@ -39,7 +39,7 @@
   "devDependencies": {
     "htmlhint": "^0.14.0",
     "jshint": "^2.10.2",
-    "stylelint-config-recommended": "^4.0.0",
+    "stylelint-config-recommended": "^5.0.0",
     "stylelint": "^13.0.0"
   }
 }
