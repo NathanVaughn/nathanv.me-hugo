@@ -9,16 +9,16 @@
   "license": "MIT",
   "dependencies": {
     "autoprefixer": "^10.1.0",
-    "critical": "^3.0.0",
+    "critical": "^4.0.0",
     "cssnano": "^5.0.0",
     "html-minifier": "^4.0.0",
     "js-beautify": "^1.10.2",
-    "postcss": "^8.2.1",
+    "postcss": "^8.3.0",
     "postcss-cli": "^8.0.0",
     "postcss-preset-env": "^6.7.0",
     "shelljs": "^0.8.3",
     "shx": "^0.3.2",
-    "start-server-and-test": "^1.11.5",
+    "start-server-and-test": "^1.12.5",
     "svgo": "^2.0.0",
     "uglify-js": "^3.6.6"
   },
@@ -39,7 +39,7 @@
   "devDependencies": {
     "htmlhint": "^0.14.0",
     "jshint": "^2.10.2",
-    "stylelint-config-recommended": "^5.0.0",
-    "stylelint": "^13.0.0"
+    "stylelint": "^13.13.1",
+    "stylelint-config-recommended": "^5.0.0"
   }
 }

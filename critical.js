@@ -33,9 +33,6 @@ critical.generate({
     // use some CSS file when the inline option is not set
     target: "css/critical.min.css",
 
-    // Minify critical-path CSS when inlining
-    minify: true,
-
     // Extract inlined styles from referenced stylesheets
     extract: false,
 
