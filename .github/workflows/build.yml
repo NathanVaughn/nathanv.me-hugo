@@ -45,7 +45,7 @@ jobs:
         publish_dir: ./public
 
     - name: Purge Cache
-      uses: nathanvaughn/actions-cloudflare-purge@master
+      uses: nathanvaughn/actions-cloudflare-purge@dev
       if: success()
       env:
         CLOUDFLARE_ZONE: ${{ secrets.CLOUDFLARE_ZONE }}
